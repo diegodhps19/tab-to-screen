@@ -2,6 +2,10 @@
 
 Move your current Chrome tab to an available monitor without dragging windows. Version 1.3.1 adds an **EN / PT-BR** control and remembers the selected interface language.
 
+## Install from the Chrome Web Store
+
+[Install Tab to Screen](https://chromewebstore.google.com/detail/tab-to-screen/gpoiffoghclcgchfjepolgkipnchhlej)
+
 ## Install locally
 
 1. Extract the extension into a permanent folder on the computer whose monitors you want to use. With remote access, this is the remote computer.
