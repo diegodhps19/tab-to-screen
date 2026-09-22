@@ -1,0 +1,155 @@
+{
+  "extensionName": {
+    "message": "Tab to Screen"
+  },
+  "extensionDescription": {
+    "message": "Move the current Chrome tab to any available monitor in one click. Give your screens custom names and skip dragging windows."
+  },
+  "actionTitle": {
+    "message": "Tab to Screen — move your tab to another monitor"
+  },
+  "heading": {
+    "message": "Which screen?"
+  },
+  "intro": {
+    "message": "Choose a monitor for your current tab."
+  },
+  "editNames": {
+    "message": "Names"
+  },
+  "editNamesTitle": {
+    "message": "Choose names for your monitors"
+  },
+  "refresh": {
+    "message": "Refresh monitors"
+  },
+  "languageLabel": {
+    "message": "Interface language"
+  },
+  "yourScreens": {
+    "message": "Your screens"
+  },
+  "findingDisplays": {
+    "message": "Finding monitors…"
+  },
+  "editorHeading": {
+    "message": "Name each screen"
+  },
+  "editorHint": {
+    "message": "Numbers match the map. Leave a name blank to use the name reported by Chrome."
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "saveNames": {
+    "message": "Save names"
+  },
+  "availableDisplays": {
+    "message": "Available monitors"
+  },
+  "maximize": {
+    "message": "Maximize at destination"
+  },
+  "singleMonitor": {
+    "message": "Chrome can see only one screen in this session. Check the monitors in your remote session, then refresh."
+  },
+  "footer": {
+    "message": "Monitors on this computer"
+  },
+  "screenNumber": {
+    "message": "Screen $1"
+  },
+  "namesHeading": {
+    "message": "Monitor names"
+  },
+  "namesIntro": {
+    "message": "A familiar name for every screen."
+  },
+  "nameInputTitle": {
+    "message": "Name for screen $1; reported by Chrome: $2"
+  },
+  "saveNamesError": {
+    "message": "Could not save the names. Please try again."
+  },
+  "mapTitle": {
+    "message": "Screen $1: $2"
+  },
+  "sending": {
+    "message": "Moving tab…"
+  },
+  "moveUnconfirmed": {
+    "message": "Chrome did not confirm the move."
+  },
+  "finishEditing": {
+    "message": "The layout may have changed. Save or cancel the names to refresh the list."
+  },
+  "noActiveTab": {
+    "message": "Open the extension in the window containing the tab you want to move."
+  },
+  "displayCountOne": {
+    "message": "1 monitor available"
+  },
+  "displayCountMany": {
+    "message": "$1 monitors available"
+  },
+  "moveToDisplay": {
+    "message": "Move tab to $1, screen $2"
+  },
+  "primarySuffix": {
+    "message": ", primary"
+  },
+  "currentSuffix": {
+    "message": ", current"
+  },
+  "current": {
+    "message": "Current"
+  },
+  "primary": {
+    "message": "Primary"
+  },
+  "send": {
+    "message": "Send"
+  },
+  "noDisplays": {
+    "message": "No monitors are available in this session. Check your screens and refresh."
+  },
+  "displaysUnavailable": {
+    "message": "Screens unavailable"
+  },
+  "displayReadError": {
+    "message": "Could not retrieve the monitors. Please try again."
+  },
+  "savePreferenceError": {
+    "message": "Could not save this preference."
+  },
+  "moveInProgress": {
+    "message": "Wait for the current move to finish."
+  },
+  "moveError": {
+    "message": "Could not move the tab. Check that the tab and monitor are still available, then try again."
+  },
+  "invalidWorkArea": {
+    "message": "The monitor does not have a valid available area."
+  },
+  "invalidSelection": {
+    "message": "Select a valid tab and monitor."
+  },
+  "displayGone": {
+    "message": "This monitor is no longer available. Refresh the list and choose another screen."
+  },
+  "windowUnconfirmed": {
+    "message": "Chrome did not confirm the destination window. Check where your tab is before trying again."
+  },
+  "pinWarning": {
+    "message": "The tab was moved, but could not stay pinned."
+  },
+  "maximizeWarning": {
+    "message": "The tab was moved, but the window could not be maximized."
+  },
+  "destinationWarning": {
+    "message": "Your system did not keep the window on the selected monitor. Check the screens available in your session."
+  },
+  "verificationWarning": {
+    "message": "The tab was moved, but the destination monitor could not be confirmed."
+  }
+}

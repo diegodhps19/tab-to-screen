@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tab to Screen</title>
+  <link rel="stylesheet" href="popup.css">
+  <script type="module" src="popup.mjs"></script>
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="brand-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="14" height="11" rx="2"/><path d="M7 21h6M10 18v3M11 3h10v10M21 3l-9 9"/></svg></span><span data-i18n="extensionName">Tab to Screen</span></div>
+    <div class="header-actions">
+      <div id="language-switch" class="language-switch" role="group" data-i18n-aria-label="languageLabel" aria-label="Interface language">
+        <button type="button" class="language-option" data-language="en" title="English (US)" aria-pressed="false">EN</button>
+        <button type="button" class="language-option" data-language="pt_BR" title="Português (Brasil)" aria-pressed="false">PT-BR</button>
+      </div>
+      <button id="edit-names" class="text-button" data-i18n-title="editNamesTitle" title="Choose names for your monitors"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5 4 4M4 20l4-1L20 7a2.8 2.8 0 0 0-4-4L4 15v5Z"/></svg><span data-i18n="editNames">Names</span></button>
+      <button id="refresh" class="icon-button" data-i18n-aria-label="refresh" data-i18n-title="refresh" aria-label="Refresh monitors" title="Refresh monitors"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7v5h-5M4 17v-5h5M6 7a7 7 0 0 1 12-1l2 3M4 15l2 3a7 7 0 0 0 12-1"/></svg></button>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <h1 id="main-heading" data-i18n="heading">Which screen?</h1>
+      <p id="intro" class="intro" data-i18n="intro">Choose a monitor for your current tab.</p>
+    </div>
+    <div class="layout-panel">
+      <div class="layout-heading"><span class="layout-label" data-i18n="yourScreens">Your screens</span><span class="eyebrow" id="count" data-i18n="findingDisplays">Finding monitors…</span></div>
+      <div id="map" class="map" aria-hidden="true"></div>
+    </div>
+    <section id="name-editor" hidden aria-labelledby="editor-heading">
+      <h2 id="editor-heading" class="sr-only" data-i18n="editorHeading">Name each screen</h2>
+      <p class="editor-hint" data-i18n="editorHint">Numbers match the map. Leave a name blank to use the name reported by Chrome.</p>
+      <form id="names-form">
+        <div id="name-fields"></div>
+        <div class="editor-actions"><button type="button" id="cancel-names" class="text-button" data-i18n="cancel">Cancel</button><button type="submit" class="save-button" data-i18n="saveNames">Save names</button></div>
+      </form>
+    </section>
+    <div class="list" id="monitors" data-i18n-aria-label="availableDisplays" aria-label="Available monitors"></div>
+    <label id="maximize-option" class="option"><span data-i18n="maximize">Maximize at destination</span><span class="switch"><input id="maximize" type="checkbox" role="switch" checked><span class="switch-track" aria-hidden="true"></span></span></label>
+    <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+    <p id="single-monitor" class="note" data-i18n="singleMonitor" hidden>Chrome can see only one screen in this session. Check the monitors in your remote session, then refresh.</p>
+  </main>
+  <footer><svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4"/></svg><span data-i18n="footer">Monitors on this computer</span></footer>
+</body>
+</html>

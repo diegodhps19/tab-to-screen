@@ -1,0 +1,155 @@
+{
+  "extensionName": {
+    "message": "Tab to Screen"
+  },
+  "extensionDescription": {
+    "message": "Envie a aba atual do Chrome para qualquer monitor com um clique. Dê nomes às suas telas e dispense arrastar janelas."
+  },
+  "actionTitle": {
+    "message": "Tab to Screen — enviar aba para outro monitor"
+  },
+  "heading": {
+    "message": "Para qual tela?"
+  },
+  "intro": {
+    "message": "Escolha um monitor para enviar a aba atual."
+  },
+  "editNames": {
+    "message": "Nomes"
+  },
+  "editNamesTitle": {
+    "message": "Escolher nomes para os monitores"
+  },
+  "refresh": {
+    "message": "Atualizar monitores"
+  },
+  "languageLabel": {
+    "message": "Idioma da interface"
+  },
+  "yourScreens": {
+    "message": "Suas telas"
+  },
+  "findingDisplays": {
+    "message": "Buscando monitores…"
+  },
+  "editorHeading": {
+    "message": "Dê um nome a cada tela"
+  },
+  "editorHint": {
+    "message": "Os números correspondem ao mapa. Deixe em branco para usar o nome informado pelo Chrome."
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "saveNames": {
+    "message": "Salvar nomes"
+  },
+  "availableDisplays": {
+    "message": "Monitores disponíveis"
+  },
+  "maximize": {
+    "message": "Maximizar no destino"
+  },
+  "singleMonitor": {
+    "message": "Só uma tela está disponível para o Chrome nesta sessão. Confira os monitores no acesso remoto e clique em atualizar."
+  },
+  "footer": {
+    "message": "Monitores deste computador"
+  },
+  "screenNumber": {
+    "message": "Tela $1"
+  },
+  "namesHeading": {
+    "message": "Nomes dos monitores"
+  },
+  "namesIntro": {
+    "message": "Um nome familiar para cada tela."
+  },
+  "nameInputTitle": {
+    "message": "Nome da tela $1; informado pelo Chrome: $2"
+  },
+  "saveNamesError": {
+    "message": "Não foi possível salvar os nomes. Tente novamente."
+  },
+  "mapTitle": {
+    "message": "Tela $1: $2"
+  },
+  "sending": {
+    "message": "Enviando aba…"
+  },
+  "moveUnconfirmed": {
+    "message": "O Chrome não confirmou o envio."
+  },
+  "finishEditing": {
+    "message": "A disposição pode ter mudado. Salve ou cancele os nomes para atualizar a lista."
+  },
+  "noActiveTab": {
+    "message": "Abra o menu da extensão na janela da aba que deseja enviar."
+  },
+  "displayCountOne": {
+    "message": "1 monitor disponível"
+  },
+  "displayCountMany": {
+    "message": "$1 monitores disponíveis"
+  },
+  "moveToDisplay": {
+    "message": "Enviar aba para $1, tela $2"
+  },
+  "primarySuffix": {
+    "message": ", principal"
+  },
+  "currentSuffix": {
+    "message": ", atual"
+  },
+  "current": {
+    "message": "Atual"
+  },
+  "primary": {
+    "message": "Principal"
+  },
+  "send": {
+    "message": "Enviar"
+  },
+  "noDisplays": {
+    "message": "Nenhum monitor está disponível nesta sessão. Confira as telas e tente atualizar."
+  },
+  "displaysUnavailable": {
+    "message": "Telas indisponíveis"
+  },
+  "displayReadError": {
+    "message": "Falha ao consultar monitores. Tente novamente."
+  },
+  "savePreferenceError": {
+    "message": "Não foi possível salvar essa preferência."
+  },
+  "moveInProgress": {
+    "message": "Aguarde o envio em andamento."
+  },
+  "moveError": {
+    "message": "Não foi possível enviar a aba. Confira se a aba e o monitor ainda estão disponíveis e tente novamente."
+  },
+  "invalidWorkArea": {
+    "message": "O monitor não tem uma área disponível válida."
+  },
+  "invalidSelection": {
+    "message": "Selecione uma aba e um monitor válidos."
+  },
+  "displayGone": {
+    "message": "Esse monitor não está mais disponível. Atualize a lista e escolha outra tela."
+  },
+  "windowUnconfirmed": {
+    "message": "O Chrome não confirmou a janela de destino. Verifique onde a aba está antes de tentar novamente."
+  },
+  "pinWarning": {
+    "message": "A aba foi enviada, mas não foi possível mantê-la fixada."
+  },
+  "maximizeWarning": {
+    "message": "A aba foi enviada, mas a janela não pôde ser maximizada."
+  },
+  "destinationWarning": {
+    "message": "O sistema não manteve a janela no monitor escolhido. Confira as telas disponíveis nesta sessão."
+  },
+  "verificationWarning": {
+    "message": "A aba foi enviada, mas não foi possível confirmar o monitor de destino."
+  }
+}
